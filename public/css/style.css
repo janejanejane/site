@@ -1,0 +1,25 @@
+body{
+	/*font-family: Tahoma, Geneva, sans-serif;*/
+	background-color: #F6F6F6;
+	color: #333333;
+	font: normal 100% Tempus Sans Itc, sans-serif;
+}
+h1{
+	font-size: 3.125em; /* 50px / 16px */
+	font-style: bold;
+	color: #990100;
+	margin: 0 auto;
+	width: 57.291666667%; /* (550px / 960px) * 100 */
+}
+#container{
+	margin: 0 auto;
+	width: 75%;
+}
+.holder{
+	margin: 0 auto;
+	width: 50.3125%; /* (483px / 960px) * 100 */
+}
+footer{
+	position: absolute;
+	bottom: 0px;
+}
