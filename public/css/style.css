@@ -1,25 +1,49 @@
 body{
-	/*font-family: Tahoma, Geneva, sans-serif;*/
-	background-color: #F6F6F6;
-	color: #333333;
+	/*font-family: Tahoma, Geneva, sans-serif;	
 	font: normal 100% Tempus Sans Itc, sans-serif;
+	font-family: 'Just Me Again Down Here', cursive;
+	background-color: #E7E8EB;*/
+	font-family: 'Asap', sans-serif;
+	background-color: #FFFFFF;
+	color: #0D0F15;
 }
 h1{
 	font-size: 3.125em; /* 50px / 16px */
 	font-style: bold;
-	color: #990100;
+	color: #A80700;
 	margin: 0 auto;
-	width: 57.291666667%; /* (550px / 960px) * 100 */
+	width: 56.25%; /* (540px / 960px) * 100 */
 }
-#container{
-	margin: 0 auto;
-	width: 75%;
+h2{
+	color: #BB0800;
 }
-.holder{
-	margin: 0 auto;
-	width: 50.3125%; /* (483px / 960px) * 100 */
+a{
+	color: #20213F;
+}
+img{
+	max-width: 100%;
+}
+i{
+	color: #BB0800;
 }
 footer{
 	position: absolute;
 	bottom: 0px;
+}
+#container{
+	margin: 0 auto;
+	width: 75%;
+	text-align: center;
+}
+#photo{
+	margin: 0 auto;
+	width: 41.6666667%; /* (400px / 960px) * 100 */
+}
+.holder{
+	text-align: left;
+	border: 2px solid #A1A1A1;
+	padding: 10px 40px; 
+	background: #E7E8EB;
+	border-radius: 10px;
+	-moz-border-radius: 25px; /* Firefox 3.6 and earlier */
 }
