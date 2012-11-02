@@ -4,7 +4,7 @@ body{
 	font-family: 'Just Me Again Down Here', cursive;
 	background-color: #E7E8EB;*/
 	font-family: 'Asap', sans-serif;
-	background-color: #FFFFFF;
+	background-color: #5A545E;
 	color: #0D0F15;
 }
 h1{
@@ -12,7 +12,8 @@ h1{
 	font-style: bold;
 	color: #A80700;
 	margin: 0 auto;
-	width: 56.25%; /* (540px / 960px) * 100 */
+	width: 62.5%; /* (600px / 960px) * 100 */
+	text-align: center;
 }
 h2{
 	color: #BB0800;
