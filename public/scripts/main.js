@@ -25,6 +25,15 @@ define(	'Main',
 			$('#jobhistory').html(jobhistory);
 			$('#socialnetwork').html(socials);
 
+			$(window).scroll(function () { 
+				var top = $(window).scrollTop();
+				if(top > 0) {
+					$('header').attr('id', 'scrolled');
+				}else{
+					$('header').attr('id', 'unscrolled');
+				}
+		    });
+
 			return Main;
 });
 
