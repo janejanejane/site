@@ -59,11 +59,17 @@ footer{
 }
 #navlist li{
 	display: inline;
-	background-color: red;
+	background-color: #FF0000;
 	margin: 0.2%;
 	padding: 0.7%;
 	border-radius: 5px;
 	-moz-border-radius: 20px; /* Firefox 3.6 and earlier */
+}
+#navlist li.clicked{
+	background-color: #0000FF;
+}
+#navlist li.unclicked{
+	background-color: #FF0000;
 }
 #navlist li a{
 	color: #FFFFFF;

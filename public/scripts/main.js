@@ -31,8 +31,42 @@ define(	'Main',
 					$('header').attr('id', 'scrolled');
 				}else{
 					$('header').attr('id', 'unscrolled');
+			    	$('#navlist li').attr('class', 'unclicked');
+				}
+
+				var elements = ['#me', '#education', '#contactinfo', '#currentjob', '#jobhistory', '#socialnetwork'];
+				for(var i=0; i<elements.length; i++){
+					var anchor = $(elements[i]);
+					console.log(anchor);
+					var height = $(anchor).height();
+					var distance = $(anchor).position().top - 50;
+					var color = $(anchor).attr('class');
+					console.log(i + ": " + distance);
+					console.log("TOP: " + (top));
+					console.log("HEIGHT: " + (distance+height));
+					console.log(color);
+					console.log((((distance+height) >= top) && (distance <= (top+50))) && color != 'clicked');
+					if((((distance+height-50) >= top) && (distance <= (top+50))) && color != 'clicked'){
+						$('li a[href^="'+ elements[i] +'"]').parent().attr('class', 'clicked');
+					}else{
+						$('li a[href^="'+ elements[i] +'"]').parent().attr('class', 'unclicked');
+					}
 				}
 		    });
+
+		    $('a').click(function () {
+			    $('#navlist li').attr('class', 'unclicked');
+
+		    	var anchor = $(this).attr('href');
+		    	console.log('CLICKED: ' + anchor);
+				$('html, body').animate({
+					scrollTop: $(anchor).offset().top - 50
+				}, 500);
+
+				$('#navlist li a[href^="'+ anchor +'"]').parent().attr('class', 'clicked');
+
+			    return true;
+			});
 
 			return Main;
 });
