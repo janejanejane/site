@@ -65,8 +65,8 @@ footer{
 	background-color: #FF0000;
 	margin: 0.2%;
 	padding: 0.7%;
-	border-radius: 5px;
-	-moz-border-radius: 20px; /* Firefox 3.6 and earlier */
+	/* border-radius: 5px;
+	-moz-border-radius: 20px; Firefox 3.6 and earlier */
 }
 #navlist li.clicked{
 	background-color: #0000FF;
@@ -101,6 +101,6 @@ footer{
 	border: 2px solid #A1A1A1;
 	padding: 10px 40px; 
 	background: #E7E8EB;
-	border-radius: 10px;
-	-moz-border-radius: 25px; /* Firefox 3.6 and earlier */
+	/* border-radius: 10px;
+	-moz-border-radius: 25px; Firefox 3.6 and earlier */
 }
