@@ -93,16 +93,19 @@ define(	'Main',
 			});
 
 			$(document).ready(function(){
-				if(activeSection){
-					gotoSection(activeSection);
-					//$(document).scrollTop($(activeSection).offset().top - 50);
-					//$('#navlist li a[href^="'+ activeSection +'"]').parent().attr('class', 'clicked');	
+				console.log("inside document.ready");
+				$(window).ready(function(){
+					if(activeSection){
+						gotoSection(activeSection);
+						//$(document).scrollTop($(activeSection).offset().top - 50);
+						//$('#navlist li a[href^="'+ activeSection +'"]').parent().attr('class', 'clicked');	
 
-					console.log("HASH: " + activeSection);
-					myfunc();
-				}else{
-					console.log("no section");
-				}
+						console.log("HASH: " + activeSection);
+						myfunc();
+					}else{
+						console.log("no section");
+					}	
+				});
 			});
 
 			return Main;
