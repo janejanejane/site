@@ -1,0 +1,20 @@
+﻿/* TEAM */
+	Who Made It: Jean Claudette Ambait
+	Contact: jeanclaudetteambait [at] gmail.com
+	Twitter: @ginclawdeath
+	From: Manila, Philippines
+
+	Boss of Who Made It: Julius Aniceto Cebreros
+	Contact: juliuscebreros [at] gmail.com
+	Twitter: @tusongtupa
+	From: Manila, Philippines
+
+/* THANKS */
+	Name: Subtle Patterns
+	URL: http://subtlepatterns.com/
+
+/* SITE */
+	Last update:2013/02/19
+	Language:English
+	Doctype:HTML5
+	IDE: Sublime Text 2
