@@ -13,8 +13,20 @@
 	Name: Subtle Patterns
 	URL: http://subtlepatterns.com/
 
+	Name: Colourlovers
+	URL: http://www.colourlovers.com/palette/209701/Burning_Angel
+
+	Name: Design Shack
+	URL: http://designshack.net/articles/graphics/25-brilliantly-simple-web-page-designs/
+
+	Name: CSS-tricks
+	URL: http://css-tricks.com/flat-icons-icon-fonts/
+
+	Name: Rondo Social Icon Font
+	URL: http://www.tajfa.com/projects/rondo/
+
 /* SITE */
-	Last update:2013/02/19
+	Last update:2013/06/23
 	Language:English
 	Doctype:HTML5
 	IDE: Sublime Text 2
